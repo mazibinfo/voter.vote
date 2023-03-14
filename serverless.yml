@@ -15,7 +15,7 @@ custom:
     bucketName: my-serverless-react-app-1223-${self:custom.myStage}
     s3Sync:
         - bucketName: ${self:custom.bucketName}
-          localDir: build/
+          localDir: demo-app/build/
 
 resources:
     Resources:

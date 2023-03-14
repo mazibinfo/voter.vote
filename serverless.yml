@@ -12,7 +12,7 @@ plugins:
 
 custom:
     myStage: ${opt:stage, self:provider.stage}
-    bucketName: my-serverless-react-app-455677-${self:custom.myStage}
+    bucketName: my-serverless-react-app-1223-${self:custom.myStage}
     s3Sync:
         - bucketName: ${self:custom.bucketName}
           localDir: demo-app/build/

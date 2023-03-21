@@ -1,0 +1,15 @@
+service: sls-react-project
+
+provider:
+       name: aws
+    stage: ${opt:stage, 'dev'}
+    runtime: nodejs16.x
+    profile: user-${self:custom.myStage}
+      region: us-east-1
+
+ plugins:
+    - serverless-s3-sync
+    sdfsd
+  dfsdf
+
+  
